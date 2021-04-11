@@ -1,0 +1,209 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #ccc; */
+    height: 50px;
+}
+.reboot{
+    margin-right: 20rem;
+}
+.reboot a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.category{
+    /* background: #ccc; */
+    word-spacing: 30px;
+}
+.category a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.search{
+    margin-left: 20rem;
+}
+.s-input{
+    background: none;
+    border-radius: 25px;
+    height: 30px;
+    border-color: #ccc;
+    outline: initial;
+}
+.s-input:focus{
+    border-color: royalblue;
+    box-shadow: 0 0 10px 0 #34abeb;
+}
+.s-input:hover{
+    border-color: black;
+}
+.fa-search{
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 603px;
+    right: 70px;
+}
+.hero{
+    background: #ccc;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    text-align: center;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.sub-text{
+    margin-right: 250px;
+}
+.sub-input{
+    margin-left: 250px;
+}
+.sub-input-input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.sub-input-input:hover{
+    border-color: black;
+}
+.sub-btn{
+    margin-left: 2rem;
+}
+.btn-subcribe{
+    height: 38px;
+    width: 150px;
+    text-transform: uppercase;
+    background: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-subcribe:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero2{
+    padding: 30px 20px;
+    display: flex;
+    /* border: 3px solid green; */
+}
+.big{
+    background: #ccc;
+    width: 1200px;
+    height: 500px;
+    padding: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.big:hover{
+    box-shadow: 0 0 10px 0;
+    cursor: pointer;
+}
+.big-text{
+    text-align: center;
+}
+.smalls{
+    display: block;
+}
+.small1{
+    background: #ccc;
+    width: 600px;
+    height: 275px;
+    margin-left: 2rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.small1:hover{
+    box-shadow: 0 0 10px 0;
+    cursor: pointer;
+}
+.small2{
+    background: #ccc;
+    width: 600px;
+    height: 275px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.small2:hover{
+    box-shadow: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.hero3{
+    padding: 30px 20px;
+}
+.cont1{
+    display: flex;
+    margin: 15px 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.cont1:hover{
+    box-shadow: 0 0 8px 0;
+}
+.pic-holder{
+    width: 200px;
+    height: 150px;
+    background: #ccc;
+    border-radius: 5px;
+}
+.context{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.context .context-title{
+    font-weight: bold;
+}
+.readmore{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.readmore:hover{
+    cursor: pointer;
+}
+.cont3{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-loadmore{
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 45px;
+    font-weight: bold;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-loadmore:hover{
+    box-shadow: 0 0 10px 0;
+    cursor: pointer;
+    border-color: black;
+}
